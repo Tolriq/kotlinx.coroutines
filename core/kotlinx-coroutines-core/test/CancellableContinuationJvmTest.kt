@@ -8,7 +8,7 @@ import kotlin.coroutines.*
 import kotlin.test.*
 
 class CancellableContinuationJvmTest : TestBase() {
-    @Test
+
     fun testToString() = runTest {
         checkToString()
     }

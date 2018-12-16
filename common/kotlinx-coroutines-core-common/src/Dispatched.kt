@@ -180,7 +180,7 @@ internal class DispatchedContinuation<in T>(
     }
 
     override fun toString(): String =
-        "DispatchedContinuation[$dispatcher, ${continuation.toDebugString()}]"
+        "DispatchedContinuation[$dispatcher]"
 }
 
 internal fun <T> Continuation<T>.resumeCancellable(value: T) = when (this) {
